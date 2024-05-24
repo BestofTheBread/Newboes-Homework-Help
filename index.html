@@ -7,5 +7,18 @@
   <body>
     <h1>Newboe's Homework Help</h1>
     <p>Welcome to Newboe's Homework Help, a small games site made by a middle school student who was bored, I don't know if I will work on this site for anymore than a week but who knows?</p>
+    <button onclick="blankCloak()">About:Blank Cloak (hides link from history)</button>
+<script>
+function blankCloak() {
+var win = window.open()
+var url = "https://newboeshomeworkhelp.github.io"
+var iframe = win.document.createElement('iframe')
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+iframe.style.border = "none";
+iframe.src = url
+win.document.body.appendChild(iframe)
+}
+</script>
   </body>
 </html>
