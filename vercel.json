@@ -1,0 +1,5 @@
+{
+  "rewrites":  [
+    {"source": "learnmathswithme/(.home.html*)", "destination": "learnmathswithme.vercel.app/home.html"}
+  ]
+}
