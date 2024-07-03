@@ -1,5 +1,5 @@
 {
   "rewrites":  [
-    {"source": "/newboes-homework-help(.home*)", "destination": "newboes-homework-help.vercel.app"}
+    {"source": "/newboes-homework-help/:home*", "destination": "https://newboes-homework-help.vercel.app/home"}
   ]
 }
