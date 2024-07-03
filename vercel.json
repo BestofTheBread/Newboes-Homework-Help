@@ -1,5 +1,5 @@
 {
   "rewrites":  [
-    {"source": "learnmathswithme/(.home.html*)", "destination": "learnmathswithme.vercel.app/home.html"}
+    {"source": "Newboes-Homework-Help/(.home.html*)", "destination": "learnmathswithme.vercel.app/home.html"}
   ]
 }
