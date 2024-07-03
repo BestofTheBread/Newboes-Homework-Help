@@ -1,0 +1,5 @@
+{
+  "rewrites":  [
+    {"source": "/newboes-homework-help(.home.html*)", "destination": "newboes-homework-help.vercel.app/home.html"}
+  ]
+}
